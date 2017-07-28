@@ -1,0 +1,9 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+
+# Order is important. The last matching pattern has the most precedence.
+*  @QLPD/services-engineering
+Dockerfile  @QLPD/devops
+CODEOWNERS  @QLPD/devops
+env.yml     @QLPD/devops
+.travis.yml @QLPD/devops
